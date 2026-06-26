@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+nav{
+    background:#ff5c8d;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    text-align:center;
+    margin-top:120px;
+}
+
+button{
+    background:#ff5c8d;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
